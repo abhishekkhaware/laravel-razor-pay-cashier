@@ -1,6 +1,6 @@
 <?php
 
-namespace Msonowal\Razorpay\Cashier;
+namespace Abhishek\Razorpay\Cashier;
 
 use Illuminate\Support\ServiceProvider;
 use Razorpay\Api\Api as Razorpay;

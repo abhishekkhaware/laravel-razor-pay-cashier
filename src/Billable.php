@@ -1,6 +1,6 @@
 <?php
 
-namespace Msonowal\Razorpay\Cashier;
+namespace Abhishek\Razorpay\Cashier;
 
 use Carbon\Carbon;
 use Exception;
@@ -42,7 +42,7 @@ trait Billable
      * @param string $subscription
      * @param string $plan
      *
-     * @return \Msonowal\Cashier\SubscriptionBuilder
+     * @return \Abhishek\Cashier\SubscriptionBuilder
      */
     public function newSubscription($subscription, $plan)
     {
@@ -137,7 +137,7 @@ trait Billable
      * @param string $subscription
      * @param string $include      |all|valid
      *
-     * @return \Msonowal\Cashier\Subscription|null
+     * @return \Abhishek\Cashier\Subscription|null
      */
     public function subscription($subscription = 'default', $include = 'valid')
     {
@@ -159,7 +159,7 @@ trait Billable
      * @param string $subscription
      * @param string $include      |all|valid
      *
-     * @return \Msonowal\Cashier\Subscription|null
+     * @return \Abhishek\Cashier\Subscription|null
      */
     public function subscriptionWithinBillingCycle($subscription = 'default')
     {

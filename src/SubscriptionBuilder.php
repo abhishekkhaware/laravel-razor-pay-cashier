@@ -1,6 +1,6 @@
 <?php
 
-namespace Msonowal\Razorpay\Cashier;
+namespace Abhishek\Razorpay\Cashier;
 
 use Carbon\Carbon;
 

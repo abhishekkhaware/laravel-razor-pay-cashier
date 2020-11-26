@@ -20,11 +20,11 @@
 Laravel Cashier inspired Razorpay Cashier provides an expressive, fluent interface to [Razorpay's](https://razorpay.com) subscription billing services. It handles almost all of the boilerplate subscription billing code you are dreading writing. In addition to basic subscription management, Cashier can handle subscription "quantities", cancellation grace periods.
 
 ## Installation
-`composer require "msonowal/laravel-razor-pay-cashier"`
+`composer require "abhishekkhaware/laravel-razor-pay-cashier"`
 
 Next, register the service provider in your `config/app.php` configuration file.
 
-`Msonowal\Razorpay\Cashier\CashierServiceProvider`
+`Abhishek\Razorpay\Cashier\CashierServiceProvider`
 
 ### Environment Configurations
 define these keys in services

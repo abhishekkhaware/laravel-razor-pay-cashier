@@ -1,41 +1,41 @@
 {
-    "name": "msonowal/laravel-razor-pay-cashier",
+    "name": "abhishekkhaware/laravel-razor-pay-cashier",
     "description": "Laravel Cashier provides an expressive, fluent interface to Razorpay's subscription billing services.",
     "keywords": ["laravel", "razorpay", "subscription", "billing"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/msonowal/laravel-razor-pay-cashier/issues",
-        "source": "https://github.com/msonowal/laravel-razor-pay-cashier"
+        "issues": "https://github.com/abhishekkhaware/laravel-razor-pay-cashier/issues",
+        "source": "https://github.com/abhishekkhaware/laravel-razor-pay-cashier"
     },
     "authors": [
         {
-            "name": "Manash Sonowal",
-            "email": "manash149@gmail.com"
+            "name": "Abhishek Khaware",
+            "email": "abhishekkhaware@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.1",
-        "illuminate/database": "~5.8",
-        "illuminate/support": "~5.8",
-        "nesbot/carbon": "~2.0",
+        "php": "^7.3|^8.0",
+        "illuminate/database": "^8.0",
+        "illuminate/support": "^8.0",
+        "nesbot/carbon": "^2.31",
         "razorpay/razorpay": "^2.2",
-        "symfony/http-kernel": "^4.2"
+        "symfony/http-kernel": "^5.1"
     },
     "require-dev": {
-        "illuminate/http": "~5.3",
-        "illuminate/routing": "~5.3",
-        "mockery/mockery": "~1.0",
-        "vlucas/phpdotenv": "~2.0"
+        "illuminate/http": "^8.0",
+        "illuminate/routing": "^8.0",
+        "mockery/mockery": "^1.4.2",
+        "vlucas/phpdotenv": "^5.2"
     },
     "autoload": {
         "psr-4": {
-            "Msonowal\\Razorpay\\Cashier\\": "src/"
+            "Abhishek\\Razorpay\\Cashier\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Msonowal\\Razorpay\\Cashier\\CashierServiceProvider"
+                "Abhishek\\Razorpay\\Cashier\\CashierServiceProvider"
             ]
         }
     },
